@@ -202,7 +202,7 @@ def RandString():
 
 colorama.init()
 Yuo = discord.Client()
-Yuo = commands.Bot(description='Yuo Selfbot', command_prefix=prefix, self_bot=True)
+Yuo = commands.Bot(description='𝗦𝗛𝗜𝗩𝗔𝗠 𝗢𝗣', command_prefix=prefix, self_bot=True)
 
 Yuo.antiraid = False
 Yuo.msgsniper = True
@@ -806,11 +806,11 @@ async def help(ctx, category=None):
     await ctx.message.delete()
     if category is None:
         embed = discord.Embed(color=0x36393f, timestamp=ctx.message.created_at)
-        embed.set_author(name="𝘠𝘶𝘰 𝙎𝙀𝙇𝙁𝘽𝙊𝙏 | 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Yuo.command_prefix),
+        embed.set_author(name="𝗦𝗛𝗜𝗩𝗔𝗠 𝗦𝗘𝗟𝗙𝗕𝗢𝗧 | 𝗣𝗥𝗘𝗙𝗜𝗫: " + str(Yuo.command_prefix),
                          icon_url=Yuo.user.avatar_url)
         embed.set_thumbnail(url=Yuo.user.avatar_url)
-        embed.set_image(url="https://cdn.discordapp.com/attachments/825389028345511937/827292080975118386/image0.gif")
-        embed.add_field(name="\uD83E\uDDCA `Yuo`", value="Shows all Yuo commands", inline=False)
+        embed.set_image(url="https://cdn.discordapp.com/attachments/821075039415435264/830673376057884692/standard_4.gif")
+        embed.add_field(name="\uD83E\uDDCA `GENERAL`", value="Shows all Yuo commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `ACCOUNT`", value="Shows all account commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `TEXT`", value="Shows all text commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `RAP`", value="Shows all music commands", inline=False)
@@ -820,7 +820,7 @@ async def help(ctx, category=None):
         embed.add_field(name="\uD83E\uDDCA `ANTI-WIZZ`", value="Shows all anti-wizz commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `WIZZ`", value="Shows all wizz commands", inline=False)
         await ctx.send(embed=embed)
-    elif str(category).lower() == "yuo":
+    elif str(category).lower() == "GENERAL":
         embed = discord.Embed(color=random.randrange(0x1000000), timestamp=ctx.message.created_at)
         embed.set_image(url="https://media.discordapp.net/attachments/697225400505598044/783140740824956958/image0.gif?width=540&height=304")
         embed.description = f"\uD83D\uDCB0 `Yuo COMMANDS`\n`> help <category>` - returns all commands of that category\n`> uptime` - return how long the selfbot has been running\n`> prefix <prefix>` - changes the bot's prefix\n`> ping` - returns the bot's latency\n`> av <user>` - returns the user's pfp\n`> whois <user>` - returns user's account info\n`> tokeninfo <token>` - returns information about the token\n`> copyserver` - makes a copy of the server\n`> rainbowrole <role>` - makes the role a rainbow role (ratelimits)\n`> serverinfo` - gets information about the server\n`> serverpfp` - returns the server's icon\n`> banner` - returns the server's banner\n`> shutdown` - shutsdown the selfbot\n"
