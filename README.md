@@ -1,7 +1,5 @@
 # Yuo-Selfbot
-Account nuker, discord selfbot for discord. (will revamp/fix soon.)
-
-![](https://replit.com/@ArskyIsOnTop/Yuo-Selfbot)
+Account nuker, discord selfbot for discord. (will revamp/fix
 
 # Steps
   1. Make a .env file
@@ -11,12 +9,7 @@ Account nuker, discord selfbot for discord. (will revamp/fix soon.)
      password= 
      prefix=    
 .
-  3. Then put in your info then start the selfbot by clicking Run
-
-# Socials
-  - https://discord.gg/j5nCYunYJp
-  - https://www.youtube.com/watch?v=z8ULrmMZA3U&t=10s
-  - https://replit.com/@ArskyIsOnTop/Yuo-Selfbot
+  3. Then put in your info then start the selfbot by clicking R
 
 # Legality
 
